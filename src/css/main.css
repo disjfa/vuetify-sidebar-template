@@ -1,0 +1,26 @@
+.intro {
+  display: flex;
+  justify-content: center;
+  margin: 4rem 0;
+}
+
+.card {
+  margin-top: -1rem;
+  margin-bottom: 5rem;
+}
+
+a {
+  color: inherit;
+}
+
+.list {
+  margin: 0 2rem !important;
+}
+
+main {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
