@@ -4,6 +4,7 @@ import App from './App.vue'
 import Vuetify from 'vuetify'
 import HomePage from './pages/HomePage.vue'
 import AboutPage from './pages/AboutPage.vue'
+import ExamplePage from './pages/ExamplePage.vue'
 
 const routes = [
     {
@@ -17,7 +18,12 @@ const routes = [
         component: AboutPage
     },
     {
-        path: '/',
+        path: '/examples',
+        name: 'examples',
+        component: ExamplePage
+    },
+    {
+        path: '*',
         redirect: {
             name: 'home'
         }

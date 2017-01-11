@@ -1,6 +1,8 @@
-# vue-vuetifyjs
+# vuetify-sidebar-template
 
-> A Vue.js project
+A Vue.js example template using vuetify and adding a sidebar.
+ 
+It builds upon vue and uses vuetify as a template. It uses a vue router as an example. 
 
 ## Build Setup
 
@@ -15,4 +17,7 @@ npm run dev
 npm run build
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Develop
+
+Run `npm run dev` and go to `http://localhost:8081/` to check the page. 
+

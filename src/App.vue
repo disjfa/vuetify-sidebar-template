@@ -4,7 +4,7 @@
             <v-navbar>
                 <v-navbar-side-icon v-sidebar:sidebar class="hidden-md-and-up"></v-navbar-side-icon>
                 <v-navbar-logo>
-                    Vuetify sidebar
+                    Sidebar
                 </v-navbar-logo>
             </v-navbar>
         </header>
@@ -34,11 +34,21 @@
                 items: [{
                     href: 'home',
                     router: true,
-                    text: 'Get Started'
+                    ripple: true,
+                    text: 'Home',
+                    icon: 'home'
+                }, {
+                    href: 'examples',
+                    router: true,
+                    ripple: true,
+                    text: 'Example',
+                    icon: 'extension'
                 }, {
                     href: 'about',
                     router: true,
-                    text: 'Get Started2'
+                    ripple: true,
+                    text: 'About',
+                    icon: 'domain'
                 }]
             }
         },
