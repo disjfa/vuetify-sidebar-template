@@ -12,12 +12,12 @@
             <h2>Inspired by</h2>
             <v-list>
                 <v-list-item>
-                    <v-list-item-title>
+                    <v-list-tile-title>
                         <a href="http://vuetifyjs.com" target="_blank">Vuetify</a>
-                    </v-list-item-title>
-                    <v-list-item-title>
+                    </v-list-tile-title>
+                    <v-list-tile-title>
                         <a href="http://vuejs.org" target="_blank">Vue.js</a>
-                    </v-list-item-title>
+                    </v-list-tile-title>
                 </v-list-item>
             </v-list>
         </div>
