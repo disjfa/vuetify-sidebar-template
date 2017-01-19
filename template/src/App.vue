@@ -9,7 +9,7 @@
             </v-navbar>
         </header>
         <main>
-            <v-sidebar left fixed id="sidebar" class="white--text">
+            <v-sidebar left fixed unshift id="sidebar" class="white--text">
                 <div class="px-3">
                     <h3 class="white--text mt-3">Sidebar</h3>
                     <p>This is just an example sidebar.</p>
