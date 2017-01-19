@@ -1,8 +1,6 @@
-# vuetify-sidebar-template
+# {{ name }}
 
-A Vue.js example template using vuetify and adding a sidebar.
- 
-It builds upon vue and uses vuetify as a template. It uses a vue router as an example. 
+{{ description }} 
 
 ## Build Setup
 

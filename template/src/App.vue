@@ -2,7 +2,7 @@
     <v-app top-navbar left-fixed-sidebar>
         <header>
             <v-navbar>
-                <v-navbar-side-icon v-sidebar:sidebar class="hidden-md-and-up"></v-navbar-side-icon>
+                <v-navbar-side-icon v-sidebar:sidebar class="hidden-md-and-up px-2"></v-navbar-side-icon>
                 <v-navbar-logo>
                     Sidebar
                 </v-navbar-logo>
@@ -10,13 +10,14 @@
         </header>
         <main>
             <v-sidebar left fixed id="sidebar" class="white--text">
-                <h3 class="white--text mt-3">Sidebar</h3>
-                <p>This is just an example sidebar.</p>
-                <v-sidebar-items>
-                    <v-sidebar-item v-for="item in items" v-bind:item="item"></v-sidebar-item>
-                </v-sidebar-items>
+                <div class="px-3">
+                    <h3 class="white--text mt-3">Sidebar</h3>
+                    <p>This is just an example sidebar.</p>
+                </div>
+                <v-list v-bind:items="items">
+                </v-list>
             </v-sidebar>
-            <v-content>
+            <v-content class="pt-0">
                 <v-container fluid>
                     <transition mode="out-in">
                         <router-view></router-view>
@@ -34,21 +35,24 @@
                 items: [{
                     href: 'home',
                     router: true,
-                    ripple: true,
-                    text: 'Home',
-                    icon: 'home'
+                    title: 'Home',
+                    action: {
+                        icon: 'home'
+                    }
                 }, {
                     href: 'examples',
                     router: true,
-                    ripple: true,
-                    text: 'Example',
-                    icon: 'extension'
+                    title: 'Example',
+                    action: {
+                        icon: 'extension'
+                    }
                 }, {
                     href: 'about',
                     router: true,
-                    ripple: true,
-                    text: 'About',
-                    icon: 'domain'
+                    title: 'About',
+                    action: {
+                        icon: 'domain'
+                    }
                 }]
             }
         },
@@ -61,5 +65,5 @@
 
 <style lang="stylus">
     @import '../node_modules/vuetify/src/stylus/main';
-    @import './css/main.css';
+    @import 'css/main.css';
 </style>

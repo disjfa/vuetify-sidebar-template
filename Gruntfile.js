@@ -6,6 +6,7 @@ module.exports = function (grunt) {
                     // includes files within path and its sub-directories
                     {
                         expand: true,
+                        cwd: 'template',
                         src: [
                             'index.html',
                             'dist/**',
