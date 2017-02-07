@@ -1,20 +1,24 @@
 <template>
     <v-app top-navbar left-fixed-sidebar>
         <header>
-            <v-navbar>
-                <v-navbar-side-icon v-sidebar:sidebar class="hidden-md-and-up px-2"></v-navbar-side-icon>
-                <v-navbar-logo>
+            <v-toolbar>
+                <v-toolbar-side-icon v-on:click="openSidebar()" class="hidden-md-and-up px-2"></v-toolbar-side-icon>
+                <v-toolbar-logo  v-on:click="openSidebar()">
                     Sidebar
-                </v-navbar-logo>
-            </v-navbar>
+                </v-toolbar-logo>
+            </v-toolbar>
         </header>
         <main>
-            <v-sidebar left fixed id="sidebar" class="white--text">
+            <v-sidebar fixed class="white--text" v-model="sidebar">
                 <div class="px-3">
                     <h3 class="white--text mt-3">Sidebar</h3>
                     <p>This is just an example sidebar.</p>
                 </div>
-                <v-list unshift v-bind:items="items">
+                <v-list>
+                    <v-list-tile v-for="item in items" :href="item.href" :router="item.router">
+                        <v-icon>{{item.icon}}</v-icon>
+                        {{ item.title }}
+                    </v-list-tile>
                 </v-list>
             </v-sidebar>
             <v-content class="pt-0">
@@ -29,36 +33,35 @@
 </template>
 
 <script>
+    import Vue from 'vue';
     export default {
         data () {
             return {
+                sidebar: false,
                 items: [{
                     href: 'home',
                     router: true,
                     title: 'Home',
-                    action: {
-                        icon: 'home'
-                    }
+                    icon: 'home'
                 }, {
                     href: 'examples',
                     router: true,
                     title: 'Example',
-                    action: {
-                        icon: 'extension'
-                    }
+                    icon: 'extension'
                 }, {
                     href: 'about',
                     router: true,
                     title: 'About',
-                    action: {
-                        icon: 'domain'
-                    }
+                    icon: 'domain'
                 }]
             }
         },
-
-        mounted () {
-            this.$vuetify.init()
+        methods: {
+            openSidebar() {
+                console.log(this.sidebar);
+                this.sidebar = !this.sidebar;
+                console.log(this.sidebar);
+            }
         }
     }
 </script>

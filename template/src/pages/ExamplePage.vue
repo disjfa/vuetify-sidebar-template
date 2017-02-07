@@ -22,8 +22,9 @@
         </v-card>
         <br>
         <h4>Modals</h4>
-        <v-btn v-modal:modal class="primary white--text">Regular</v-btn>
-        <v-modal id="modal">
+
+        <v-modal id="modal" v-model="modal">
+            <v-btn slot="button" class="primary white--text">Regular</v-btn>
             <v-card>
                 <v-card-text>
                     <p class="text-xs-center">What is your age?</p>
@@ -31,20 +32,20 @@
                     <p>This information is used to improve your experience on our site.</p>
                 </v-card-text>
                 <v-card-row actions>
-                    <v-btn v-on:click.native="modal('modal')">Cancel</v-btn>
+                    <v-btn v-on:click.native="modal = false">Cancel</v-btn>
                     <v-spacer></v-spacer>
-                    <v-btn v-on:click.native="modal('modal')" class="green white--text">Submit</v-btn>
+                    <v-btn v-on:click.native="modal = false" class="green white--text">Submit</v-btn>
                 </v-card-row>
             </v-card>
         </v-modal>
 
-        <v-btn v-modal:modal2 class="secondary white--text">Bottom</v-btn>
-        <v-modal id="modal2" bottom>
+        <v-modal id="modal2" bottom v-model="modal2">
+            <v-btn slot="button" class="secondary white--text">Bottom</v-btn>
             <v-card class="secondary white--text">
                 <v-card-row actions>
                     <div>This is an example of a bottom modal.</div>
                     <v-spacer></v-spacer>
-                    <v-btn v-on:click.native="modal('modal2')" class="primary white--text">Close</v-btn>
+                    <v-btn v-on:click.native="modal2 = false" class="primary white--text">Close</v-btn>
                 </v-card-row>
             </v-card>
         </v-modal>
@@ -54,7 +55,10 @@
 <script>
     export default {
         data () {
-            return {}
+            return {
+                modal: false,
+                modal2: false
+            }
         },
 
         mounted () {
