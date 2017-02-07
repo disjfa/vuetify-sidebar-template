@@ -2,8 +2,8 @@
     <v-app top-navbar left-fixed-sidebar>
         <header>
             <v-toolbar>
-                <v-toolbar-side-icon v-on:click="openSidebar()" class="hidden-md-and-up px-2"></v-toolbar-side-icon>
-                <v-toolbar-logo  v-on:click="openSidebar()">
+                <v-toolbar-side-icon @click="openSidebar()" class="hidden-md-and-up px-2"></v-toolbar-side-icon>
+                <v-toolbar-logo @click="openSidebar()">
                     Sidebar
                 </v-toolbar-logo>
             </v-toolbar>
