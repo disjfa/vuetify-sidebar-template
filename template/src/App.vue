@@ -15,9 +15,13 @@
                     <p>This is just an example sidebar.</p>
                 </div>
                 <v-list>
-                    <v-list-tile v-for="item in items" :href="item.href" :router="item.router">
-                        <v-icon>{{item.icon}}</v-icon>
-                        {{ item.title }}
+                    <v-list-tile v-for="item in items" :href="item.href" :router="item.router" avatar>
+                        <v-list-tile-avatar>
+                            <v-icon>{{item.icon}}</v-icon>
+                        </v-list-tile-avatar>
+                        <v-list-tile-content>
+                            {{ item.title }}
+                        </v-list-tile-content>
                     </v-list-tile>
                 </v-list>
             </v-sidebar>

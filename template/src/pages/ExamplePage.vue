@@ -24,7 +24,7 @@
         <h4>Modals</h4>
 
         <v-modal id="modal" v-model="modal">
-            <v-btn slot="button" class="primary white--text">Regular</v-btn>
+            <v-btn slot="activator" class="primary white--text">Regular</v-btn>
             <v-card>
                 <v-card-text>
                     <p class="text-xs-center">What is your age?</p>
@@ -40,7 +40,7 @@
         </v-modal>
 
         <v-modal id="modal2" bottom v-model="modal2">
-            <v-btn slot="button" class="secondary white--text">Bottom</v-btn>
+            <v-btn slot="activator" class="secondary white--text">Bottom</v-btn>
             <v-card class="secondary white--text">
                 <v-card-row actions>
                     <div>This is an example of a bottom modal.</div>
