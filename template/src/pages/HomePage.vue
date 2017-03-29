@@ -9,7 +9,7 @@
             <p>You can check out the links in the sidebar for more information</p>
             <p></p>
 
-            <h2>Inspired by</h2>
+            <h3>Inspired by</h3>
             <v-list>
                 <v-list-item>
                     <v-list-tile-title>
@@ -20,6 +20,7 @@
                     </v-list-tile-title>
                 </v-list-item>
             </v-list>
+
         </div>
     </div>
 </template>

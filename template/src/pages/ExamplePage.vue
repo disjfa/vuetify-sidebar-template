@@ -28,8 +28,47 @@
             <v-card>
                 <v-card-text>
                     <p class="text-xs-center">What is your age?</p>
-                    <v-select v-bind:options="[{ text: '10-19', value: 1 }, { text: '20+', value: 2 }]" label="What is your age?"></v-select>
                     <p>This information is used to improve your experience on our site.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, deserunt ea eius nemo praesentium sint voluptates voluptatum. Enim modi natus, quaerat quibusdam sint voluptate. Consequatur enim excepturi provident repellat sequi?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, deserunt ea eius nemo praesentium sint voluptates voluptatum. Enim modi natus, quaerat quibusdam sint voluptate. Consequatur enim excepturi provident repellat sequi?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, deserunt ea eius nemo praesentium sint voluptates voluptatum. Enim modi natus, quaerat quibusdam sint voluptate. Consequatur enim excepturi provident repellat sequi?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, deserunt ea eius nemo praesentium sint voluptates voluptatum. Enim modi natus, quaerat quibusdam sint voluptate. Consequatur enim excepturi provident repellat sequi?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, deserunt ea eius nemo praesentium sint voluptates voluptatum. Enim modi natus, quaerat quibusdam sint voluptate. Consequatur enim excepturi provident repellat sequi?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, deserunt ea eius nemo praesentium sint voluptates voluptatum. Enim modi natus, quaerat quibusdam sint voluptate. Consequatur enim excepturi provident repellat sequi?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, deserunt ea eius nemo praesentium sint voluptates voluptatum. Enim modi natus, quaerat quibusdam sint voluptate. Consequatur enim excepturi provident repellat sequi?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, deserunt ea eius nemo praesentium sint voluptates voluptatum. Enim modi natus, quaerat quibusdam sint voluptate. Consequatur enim excepturi provident repellat sequi?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, deserunt ea eius nemo praesentium sint voluptates voluptatum. Enim modi natus, quaerat quibusdam sint voluptate. Consequatur enim excepturi provident repellat sequi?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, deserunt ea eius nemo praesentium sint voluptates voluptatum. Enim modi natus, quaerat quibusdam sint voluptate. Consequatur enim excepturi provident repellat sequi?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, deserunt ea eius nemo praesentium sint voluptates voluptatum. Enim modi natus, quaerat quibusdam sint voluptate. Consequatur enim excepturi provident repellat sequi?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, deserunt ea eius nemo praesentium sint voluptates voluptatum. Enim modi natus, quaerat quibusdam sint voluptate. Consequatur enim excepturi provident repellat sequi?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, deserunt ea eius nemo praesentium sint voluptates voluptatum. Enim modi natus, quaerat quibusdam sint voluptate. Consequatur enim excepturi provident repellat sequi?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, deserunt ea eius nemo praesentium sint voluptates voluptatum. Enim modi natus, quaerat quibusdam sint voluptate. Consequatur enim excepturi provident repellat sequi?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, deserunt ea eius nemo praesentium sint voluptates voluptatum. Enim modi natus, quaerat quibusdam sint voluptate. Consequatur enim excepturi provident repellat sequi?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, deserunt ea eius nemo praesentium sint voluptates voluptatum. Enim modi natus, quaerat quibusdam sint voluptate. Consequatur enim excepturi provident repellat sequi?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, deserunt ea eius nemo praesentium sint voluptates voluptatum. Enim modi natus, quaerat quibusdam sint voluptate. Consequatur enim excepturi provident repellat sequi?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, deserunt ea eius nemo praesentium sint voluptates voluptatum. Enim modi natus, quaerat quibusdam sint voluptate. Consequatur enim excepturi provident repellat sequi?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, deserunt ea eius nemo praesentium sint voluptates voluptatum. Enim modi natus, quaerat quibusdam sint voluptate. Consequatur enim excepturi provident repellat sequi?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, deserunt ea eius nemo praesentium sint voluptates voluptatum. Enim modi natus, quaerat quibusdam sint voluptate. Consequatur enim excepturi provident repellat sequi?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, deserunt ea eius nemo praesentium sint voluptates voluptatum. Enim modi natus, quaerat quibusdam sint voluptate. Consequatur enim excepturi provident repellat sequi?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, deserunt ea eius nemo praesentium sint voluptates voluptatum. Enim modi natus, quaerat quibusdam sint voluptate. Consequatur enim excepturi provident repellat sequi?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, deserunt ea eius nemo praesentium sint voluptates voluptatum. Enim modi natus, quaerat quibusdam sint voluptate. Consequatur enim excepturi provident repellat sequi?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, deserunt ea eius nemo praesentium sint voluptates voluptatum. Enim modi natus, quaerat quibusdam sint voluptate. Consequatur enim excepturi provident repellat sequi?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, deserunt ea eius nemo praesentium sint voluptates voluptatum. Enim modi natus, quaerat quibusdam sint voluptate. Consequatur enim excepturi provident repellat sequi?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, deserunt ea eius nemo praesentium sint voluptates voluptatum. Enim modi natus, quaerat quibusdam sint voluptate. Consequatur enim excepturi provident repellat sequi?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, deserunt ea eius nemo praesentium sint voluptates voluptatum. Enim modi natus, quaerat quibusdam sint voluptate. Consequatur enim excepturi provident repellat sequi?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, deserunt ea eius nemo praesentium sint voluptates voluptatum. Enim modi natus, quaerat quibusdam sint voluptate. Consequatur enim excepturi provident repellat sequi?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, deserunt ea eius nemo praesentium sint voluptates voluptatum. Enim modi natus, quaerat quibusdam sint voluptate. Consequatur enim excepturi provident repellat sequi?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, deserunt ea eius nemo praesentium sint voluptates voluptatum. Enim modi natus, quaerat quibusdam sint voluptate. Consequatur enim excepturi provident repellat sequi?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, deserunt ea eius nemo praesentium sint voluptates voluptatum. Enim modi natus, quaerat quibusdam sint voluptate. Consequatur enim excepturi provident repellat sequi?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, deserunt ea eius nemo praesentium sint voluptates voluptatum. Enim modi natus, quaerat quibusdam sint voluptate. Consequatur enim excepturi provident repellat sequi?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, deserunt ea eius nemo praesentium sint voluptates voluptatum. Enim modi natus, quaerat quibusdam sint voluptate. Consequatur enim excepturi provident repellat sequi?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, deserunt ea eius nemo praesentium sint voluptates voluptatum. Enim modi natus, quaerat quibusdam sint voluptate. Consequatur enim excepturi provident repellat sequi?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, deserunt ea eius nemo praesentium sint voluptates voluptatum. Enim modi natus, quaerat quibusdam sint voluptate. Consequatur enim excepturi provident repellat sequi?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, deserunt ea eius nemo praesentium sint voluptates voluptatum. Enim modi natus, quaerat quibusdam sint voluptate. Consequatur enim excepturi provident repellat sequi?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, deserunt ea eius nemo praesentium sint voluptates voluptatum. Enim modi natus, quaerat quibusdam sint voluptate. Consequatur enim excepturi provident repellat sequi?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, deserunt ea eius nemo praesentium sint voluptates voluptatum. Enim modi natus, quaerat quibusdam sint voluptate. Consequatur enim excepturi provident repellat sequi?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, deserunt ea eius nemo praesentium sint voluptates voluptatum. Enim modi natus, quaerat quibusdam sint voluptate. Consequatur enim excepturi provident repellat sequi?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, deserunt ea eius nemo praesentium sint voluptates voluptatum. Enim modi natus, quaerat quibusdam sint voluptate. Consequatur enim excepturi provident repellat sequi?</p>
                 </v-card-text>
                 <v-card-row actions>
                     <v-btn v-on:click.native="modal = false">Cancel</v-btn>
@@ -57,7 +96,7 @@
         data () {
             return {
                 modal: false,
-                modal2: false
+                modal2: false,
             }
         },
 
