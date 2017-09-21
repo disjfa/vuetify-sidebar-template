@@ -1,14 +1,10 @@
 {
   "name": "vuetify-webpack-simple",
   "description": "Forked webpack simple from official vue docs",
-  "author": "John Leider <john.j.leider@gmail.com>",
+  "author": "Disjfa <disjfa@disjfa.nl>",
   "private": true,
   "scripts": {
-    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --inline --hot --host=0.0.0.0 --port=8081",
-    "push": "cross-env NODE_ENV=production webpack --progress --hide-modules"
-  },
-  "dependencies": {
-    "vue": "^2.1.6"
+    "gh-pages": "grunt push"
   },
   "devDependencies": {
     "grunt": "^1.0.1",

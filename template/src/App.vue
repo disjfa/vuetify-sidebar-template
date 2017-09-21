@@ -10,8 +10,8 @@
                     </v-list-tile-content>
                 </v-list-tile>
                 <v-divider></v-divider>
-                <v-list-item v-for="item in items" :key="item">
-                    <v-list-tile :href="item.href" :router="item.router">
+                <template v-for="(item, index) in items">
+                    <v-list-tile :href="item.href" :to="{name: item.href}">
                         <v-list-tile-action>
                             <v-icon light v-html="item.icon"></v-icon>
                         </v-list-tile-action>
@@ -19,14 +19,14 @@
                             <v-list-tile-title v-html="item.title"></v-list-tile-title>
                         </v-list-tile-content>
                     </v-list-tile>
-                </v-list-item>
+                </template>
             </v-list>
         </v-navigation-drawer>
-        <v-toolbar class="indigo">
-            <v-toolbar-side-icon light @click.native.stop="drawer = !drawer"></v-toolbar-side-icon>
+        <v-toolbar class="indigo" dark>
+            <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
             <v-toolbar-title>Sidebar template</v-toolbar-title>
             <v-spacer></v-spacer>
-            <v-btn light icon @click.native.stop="openGithub()">
+            <v-btn icon @click.native.stop="openGithub()">
                 <v-icon>home</v-icon>
             </v-btn>
         </v-toolbar>
@@ -35,16 +35,15 @@
                 <router-view></router-view>
             </v-fade-transition>
         </main>
-        <v-footer class="indigo">
+        <v-footer class="indigo" dark>
             <span>© 2017 - disjfa</span>
         </v-footer>
     </v-app>
 </template>
 
 <script type="text/babel">
-  import Vue from 'vue';
   export default {
-    data () {
+    data() {
       return {
         drawer: true,
         items: [{
@@ -62,18 +61,15 @@
           router: true,
           title: 'About',
           icon: 'domain',
-        }]
-      }
+        }],
+      };
     },
     methods: {
-      openSidebar() {
-        this.sidebar = !this.sidebar;
-      },
       openGithub() {
         window.open('https://github.com/disjfa/vuetify-sidebar-template');
-      }
-    }
-  }
+      },
+    },
+  };
 </script>
 
 <style lang="stylus">
