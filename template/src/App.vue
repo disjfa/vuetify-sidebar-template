@@ -45,7 +45,7 @@
   export default {
     data() {
       return {
-        drawer: true,
+        drawer: false,
         items: [{
           href: 'home',
           router: true,
