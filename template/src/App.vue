@@ -1,10 +1,10 @@
 <template>
-    <v-app id="example-1">
-        <v-navigation-drawer persistent v-model="drawer">
+    <v-app>
+        <v-navigation-drawer v-model="drawer" app temporary>
             <v-list>
                 <v-list-tile>
                     <v-list-tile-content>
-                        <v-list-tile-title >
+                        <v-list-tile-title>
                             <span>Menu</span>
                         </v-list-tile-title>
                     </v-list-tile-content>
@@ -22,7 +22,7 @@
                 </template>
             </v-list>
         </v-navigation-drawer>
-        <v-toolbar class="indigo" dark>
+        <v-toolbar class="indigo" dark app>
             <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
             <v-toolbar-title>Sidebar template</v-toolbar-title>
             <v-spacer></v-spacer>
@@ -30,13 +30,13 @@
                 <v-icon>home</v-icon>
             </v-btn>
         </v-toolbar>
-        <main>
+        <v-content>
             <v-fade-transition mode="out-in">
                 <router-view></router-view>
             </v-fade-transition>
-        </main>
-        <v-footer class="indigo" dark>
-            <span>© 2017 - disjfa</span>
+        </v-content>
+        <v-footer class="indigo pa-3" dark app>
+            <span>© 2018 - <a href="https://github.com/disjfa" class="indigo text--lighten-5">disjfa</a></span>
         </v-footer>
     </v-app>
 </template>

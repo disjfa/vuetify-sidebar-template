@@ -7,7 +7,7 @@
     "gh-pages": "grunt push"
   },
   "devDependencies": {
-    "grunt": "^1.0.1",
+    "grunt": "^1.0.2",
     "grunt-build-control": "^0.7.1",
     "grunt-contrib-copy": "^1.0.0"
   }
