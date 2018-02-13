@@ -13,14 +13,14 @@
     "vue-loader": "^14.1.1",
     "vue-router": "^3.0.1",
     "vue-template-compiler": "^2.5.13",
-    "vuetify": "^1.0.0-beta.6"
+    "vuetify": "^1.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.2.1",
     "babel-loader": "^7.1.2",
     "babel-plugin-transform-runtime": "^6.23.0",
-    "buble": "^0.19.2",
+    "buble": "^0.19.3",
     "buble-loader": "^0.4.0",
     "cross-env": "^5.1.3",
     "css-loader": "^0.28.9",
