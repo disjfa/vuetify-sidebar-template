@@ -1,14 +1,12 @@
 {
-  "name": "vuetify-webpack-simple",
+  "name": "vuetify-sidebar-template",
   "description": "Forked webpack simple from official vue docs",
   "author": "Disjfa <disjfa@disjfa.nl>",
   "private": true,
   "scripts": {
-    "gh-pages": "grunt push"
+    "gh-pages": "gh-pages -d template/dist"
   },
-  "devDependencies": {
-    "grunt": "^1.0.2",
-    "grunt-build-control": "^0.7.1",
-    "grunt-contrib-copy": "^1.0.0"
+  "dependencies": {
+    "gh-pages": "^1.2.0"
   }
 }
