@@ -11,10 +11,10 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.2.0/workbox-sw.js");
+importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.cf30b5a9bf67350ab51abbd53fc9ef0c.js"
+  "/precache-manifest.b6a69b01548c15f104a8ce4016b89bd2.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "vuetify-sidebar-template"});
